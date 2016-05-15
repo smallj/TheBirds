@@ -20,6 +20,9 @@ namespace TheBirds
             World.tempurature = 20;
             World.windSpeed = 12;
 
+            temperatureValue.Content = World.tempurature.ToString();
+            windValue.Content = World.windSpeed.ToString();
+
             penguin.hop();
             penguin.fly();
 
@@ -35,6 +38,9 @@ namespace TheBirds
             //Storm
             World.tempurature = -10;
             World.windSpeed = 30;
+
+            temperatureValue.Content = World.tempurature.ToString();
+            windValue.Content = World.windSpeed.ToString();
 
             penguin.hop();
 
